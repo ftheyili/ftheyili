@@ -1,0 +1,92 @@
+
+% Exemple de CV utilisant la classe moderncv
+% Style classic en bleu
+% Article complet : http://blog.madrzejewski.com/creer-cv-elegant-latex-moderncv/
+
+\documentclass[11pt,a4paper]{moderncv}
+% Pack de langue et encodage
+\usepackage[utf8]{inputenc}
+\usepackage{fontenc}
+\usepackage[french]{babel}
+
+%Changer la police generale
+\usepackage{avant}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[top=1.0cm, bottom=1.0cm, left=2cm, right=2cm]{geometry}
+
+
+\moderncvtheme[green]{classic}
+
+% Largeur de la colonne pour les dates
+\setlength{\hintscolumnwidth}{3.5cm}
+
+\firstname{Fatih}
+\familyname{EYILI}
+\title{\textsc{\textbf{Recherche d'alternance : Ux/Ui Design}}}
+\address{9, rue Roger de Monts}{33270 Floirac}
+\email{ftheyili@gmail.com}
+%\homepage{https://github.com/}
+\mobile{06 14 98 41 50}
+\extrainfo{Né le 23/08/1996 (23 ans)}
+
+\begin{document}
+\maketitle
+%espace entre titre et corps
+\vspace{-1.2em}
+
+\section{Compétences}
+
+\cvitem[0.8em]{Conception}{\textbf{Maitrise des machines à commande numérique} \newline \textit{Découpeuse Laser, Imprimante 3D, Découpeuse vynile}}
+\cvitem[0.8em]{Langages\\\textit{Quelques notions}}{\textbf{Python, HTML/CSS, \LaTeX}\newline \textit{JavaScript, Java, C++}}
+\cvitem[0.8em]{Logiciels\\\textit{Quelques notions}}{\textbf{Photoshop, Illustrator, InDesign, GIMP, Inkscape}\newline \textit{Blender, Unity et Godot Engine}}
+
+
+%\cvitem[0.5em]{Autres}{ \textbf{Curieux -- Créatif}}
+
+
+\section{Expériences professionnelles}
+
+
+\cventry[0.8em]{2019}{Animateur et rédacteur en pédagogie}{\textit Arbalet}{}{(Stage 1 mois)}
+{{Conception d'activités pédagogiques pour l'apprentissage du numérique}}
+
+\cventry[0.8em]{2019}{Maker}{\textit Fablab Coh@bit}{IUT Gradignan}{(Stage 2 mois)}
+{{Réalisation d’un capteur de spores de champignons pour de la \newline recherche agronomique}}
+
+\cventry[0.8em]{2019}{Maker}{\textit Fablab 127\textdegree}{Cap Sciences}{(Stage 2 mois)}
+{{Production : Luminaire à thème (1 mois) -- Jeu de société (1 mois)}}
+
+\cventry[0.8em]{2018}{Analyste programmeur}{\textit GraphiWorks}{}{(Stage 1 mois)}
+{{Intégration Wordpress, Animation en HTML/CSS}}
+
+%\cventry[0.8em]{2018}{Hôte \textnormal{(événementiel)}}{Event Security}{}{}
+%{{Stade Chaban-Delmas et Stade Matmut Atlantique}}
+
+\cventry[0.8em]{2015 -- 2018}{Programmation de Jeux \textnormal{en python}}{}{\textit Lycées et Université}{}
+{{Jeu de type runner : PilotFish -- Jeu de reflexion inspiré de Folt}}
+
+\cventry[0.8em]{2015}{Programmation Java/Arduino}{}{Lycée François \textsc{Mauriac}}{}
+{{Réalisation d’un Piano à ultrason (4 mois)}}
+
+
+\section{Formations}\slshape
+
+\cventry[0.8em]{2019-- 2021}{Formation \textsc{INFA}}{Web designer}{}{}
+{}
+\cventry[0.8em]{2016-- 2018}{Licence \textnormal{(niveau)}}{Université Bordeaux I}{}{}
+{Spécialité Mathématiques et Informatique}
+\cventry[0.8em]{2016}{Baccalauréat}{Lycée Montaigne \textsc{Montesquieu}}{Bordeaux}{}
+{Série Scientifique, spécialité ISN ( \slshape{\textbf{I}nformatique et \textbf{S}ciences du \textbf{N}umérique} )}
+
+\section{Centres d'intérêt}
+
+
+% Sport / Domaine techno / Lecture / Jeux / Artistique
+\cvitem[0.4em]{Sports}{Basketball, Futsal, Volleyball}
+\cvitem[0.4em]{Technologies}{Programmation de mini-jeux, High-tech, Innovations}
+\cvitem[0.4em]{Lectures}{AppyGeek, Mangas, \emph{L'Alchimiste} de P. \textsc{Coelho}, \emph{Libérez votre cerveau} de I. \textsc{Aberkane}}
+\cvitem[0.4em]{Jeux}{7 Wonders, Age of Empire II, Summoners War}
+\cvitem[0.4em]{Artistiques}{Infographie, Écriture, Calligraphie}
+
+\end{document}
